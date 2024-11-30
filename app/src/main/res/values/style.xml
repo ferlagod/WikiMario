@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Paleta de colores inspirada en Mario Bros -->
+    <color name="marioRed">#E63946</color>
+    <color name="marioBlue">#457B9D</color>
+    <color name="luigiGreen">#2A9D8F</color>
+    <color name="coinGold">#FFD700</color>
+    <color name="backgroundDark">#1D3557</color>
+    <color name="textWhite">#F1FAEE</color>
+    <color name="cardBackground">#A8DADC</color>
+
+    <!-- Tema de la aplicación -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Color principal y secundario -->
+        <item name="colorPrimary">@color/marioRed</item>
+        <item name="colorPrimaryDark">@color/backgroundDark</item>
+        <item name="colorAccent">@color/coinGold</item>
+        <item name="android:colorBackground">@color/backgroundDark</item>
+        <item name="android:textColor">@color/textWhite</item>
+    </style>
+
+    <!-- Estilo para el TextView de los nombres de personajes -->
+    <style name="CharacterNameText">
+        <item name="android:textColor">@color/marioRed</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Estilo para la CardView del RecyclerView -->
+    <style name="CharacterCardStyle">
+        <item name="cardCornerRadius">16dp</item>  <!-- Bordes redondeados -->
+        <item name="cardElevation">8dp</item>      <!-- Sombra para dar profundidad -->
+        <item name="cardBackgroundColor">@color/cardBackground</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <!-- Estilo para los botones del BottomNavigationView -->
+    <style name="BottomNavStyle">
+        <item name="android:background">@color/marioBlue</item>
+    </style>
+
+    <!-- Estilo para el Toolbar -->
+    <style name="ToolbarStyle">
+        <!-- Fondo rojo  -->
+        <item name="android:background">@color/marioRed</item>
+        <!-- Elevación para un efecto sutil de sombra -->
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- Estilo para las imágenes en forma de círculo -->
+    <style name="ImageCircleStyle">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/circular_border</item>
+    </style>
+
+    <!-- Estilo para las descripciones del personaje -->
+    <style name="CharacterDescriptionText">
+        <item name="android:textColor">@color/luigiGreen</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">center</item> <!-- Centrado en la pantalla -->
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+    </style>
+
+
+    <!-- Estilo para las habilidades del personaje -->
+    <style name="CharacterSkillsText">
+        <item name="android:textColor">#FF9800</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">WikiMario</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="character">Character</string>
+    <string name="skills">Skills</string>
+    <string name="description">Description</string>
+    <string name="acerca_de">About...</string>
+    <string name="men">Menu</string>
+    <string name="wikimario">WikiMario</string>
+    <string name="app_desarrollada">"Application developed by Fernando Lago. Version 1.0."</string>
+    <string name="accept">Accept</string>
+    <string name="seleccionado">Selected: About</string>
+    <string name="elegir">Choose a character:</string>
+    <string name="mario_name">Mario</string>
+    <string name="descripton_mario">The main hero of the Mushroom Kingdom</string>
+    <string name="skills_mario">Mario uses his powerful jumping ability and a variety of power-ups to face his arch-enemy, Bowser.</string>
+    <string name="luigi_name">Luigi</string>
+    <string name="description_luigi">Mario\'s brother and hero of the Mushroom Kingdom</string>
+    <string name="skills_luigi">Luigi is taller and can jump higher than Mario.</string>
+    <string name="peach_name">Peach</string>
+    <string name="description_peach">The beloved princess of the Mushroom Kingdom.</string>
+    <string name="skills_peach">Princess Peach is always ready to participate in a wide range of sports and loves baking and cooking.</string>
+    <string name="toad_name">Toad</string>
+    <string name="description_toad">A resident of the Mushroom Kingdom who serves Princess Peach.</string>
+    <string name="skills_toad">Toad is cheerful and loyal. He does everything possible to help Mario and Luigi in their efforts to protect the Mushroom Kingdom from Bowser.</string>
+    <string name="welcome">Welcome to Mario\'s World</string>
+    <string name="mostrar_toast">"Character selected "</string>
+    <string name="inicio">Home</string>
+    <string name="ajustes">Settings</string>
+    <string name="multiidiomas">Spanish / English</string>
+    <string name="navigation_drawer_open">Open navigation menu</string>
+    <string name="navigation_drawer_close">Close navigation menu</string>
+    <string name="cambiar_de_idioma">Switch languages</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WikiMario" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Configuración SplashScreen-->
+        <item name="postSplashScreenTheme">@style/AppTheme</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/marioRed</item>
+        <item name="android:windowSplashScreenBackground">@color/marioRed</item>
+    </style>
+</resources>
